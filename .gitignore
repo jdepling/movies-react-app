@@ -1,0 +1,14 @@
+# Visual Studio / .NET
+bin/
+obj/
+
+# Node
+node_modules/
+dist/
+
+# Database
+movies.db
+
+# OS
+.DS_Store
+Thumbs.db

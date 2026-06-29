@@ -1,0 +1,8 @@
+{
+  "dotnet.defaultRuntimePath": "C:\\Program Files\\dotnet",
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\Program Files\\dotnet;C:\\Program Files\\nodejs;${env:PATH}"
+  },
+  "csharp.suppressDotnetRestoreNotification": true,
+  "csharp.format.enable": true
+}

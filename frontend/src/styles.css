@@ -1,0 +1,119 @@
+:root {
+  color-scheme: normal;
+  font-family: system-ui, sans-serif;
+  background: #f7f8fa;
+  color: #1f2937;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.app-shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.actions button {
+  margin-right: 8px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.back-button {
+  margin-bottom: 20px;
+}
+
+.movie-form,
+.review-form {
+  display: grid;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.movie-form label,
+.review-form label {
+  display: grid;
+  gap: 8px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font: inherit;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.error-box {
+  background: #fee2e2;
+  border: 1px solid #fca5a5;
+  color: #991b1b;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.review-panel {
+  margin-top: 24px;
+}
+
+.review-panel ul {
+  list-style: none;
+  padding: 0;
+}
+
+.review-panel li {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
